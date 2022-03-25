@@ -1,0 +1,11 @@
+<form [formGroup]="inputs">
+    <table>
+        <tr formArrayName="characters">
+            <td *ngFor="let char of getCharacters().controls; let i = index">
+                <div class="cell">
+                    <input type="text" [formControlName]="i">
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>

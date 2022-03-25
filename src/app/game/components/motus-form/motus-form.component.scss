@@ -1,0 +1,21 @@
+.cell {
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    background-color: #7c8ef3;
+    color : white;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.cell>input{
+    width : 64px;
+    height: 64px;
+    padding: 0;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+table {
+    background-color: #a9b4f3;
+}

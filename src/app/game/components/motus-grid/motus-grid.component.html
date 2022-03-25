@@ -1,0 +1,20 @@
+<table>
+    <tr class="verified" *ngFor="let row of attempts">
+        <td *ngFor="let cell of [].constructor(word.length)">
+            <div class="cell"></div>
+        </td>
+    </tr>
+</table>
+<app-motus-form></app-motus-form>
+    <!-- <tr>
+        <td *ngFor="let cell of word; let i = index">
+            <div class="cell">{{((tips.includes(i))?cell:'.') | uppercase}}</div>
+        </td>
+    </tr> -->
+<table>
+    <tr *ngFor="let row of [].constructor((attemptLimit-attempts.length)-1)">
+        <td *ngFor="let cell of [].constructor(word.length)">
+            <div class="cell"></div>
+        </td>
+    </tr>
+</table>
